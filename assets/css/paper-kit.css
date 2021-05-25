@@ -25,6 +25,41 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+.credit-mof {
+  position: relative;
+}
+
+/* .card {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+
+
+.container {
+  margin-top: 50px;
+}
+
+.container-cards {
+ margin-top: auto;
+ margin-bottom: auto;
+ margin-left: 15rem;
+ margin-right: 15rem;
+}
+
+.card-text {
+  margin: auto;
+}
+
+.row {
+  margin-top: 100px;
+}
+
+.card  {
+  width: 1fr;
+  height: 25rem;
+}
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -4475,7 +4510,7 @@ License - nucleoapp.com/license/
   font-weight: 600;
   margin: 5px 0px;
   padding: 20px 15px;
-  font-size: 14px;
+  font-size: 15px;
   color: #66615B;
   text-transform: uppercase;
 }
@@ -6618,7 +6653,7 @@ License - nucleoapp.com/license/
   background-size: cover;
   min-height: 100vh;
   max-height: 999px;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -6863,7 +6898,16 @@ License - nucleoapp.com/license/
   margin-top: 85px;
 }
 
+.cta {
+  position: absolute;
+  z-index: 1;
+  order: 2;
+  margin-top: 30rem;
+}
+
+
 .moving-clouds {
+  order: 1;
   position: absolute;
   z-index: 1;
   bottom: 0;
