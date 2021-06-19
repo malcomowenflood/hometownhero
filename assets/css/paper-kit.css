@@ -33,7 +33,7 @@
   margin-left: auto;
   margin-right: auto;
 } */
-
+ 
 
 
 .container {
@@ -6882,7 +6882,7 @@ License - nucleoapp.com/license/
   margin-left: -35%;
   margin-bottom: -50px;
   width: 110%;
-  opacity: .85;
+  opacity: .60;
 }
 
 .fog-low img {
@@ -6891,7 +6891,7 @@ License - nucleoapp.com/license/
 
 .fog-low.right {
   margin-left: 30%;
-  opacity: 1;
+  opacity: .60;
 }
 
 .page-header .content-center {
