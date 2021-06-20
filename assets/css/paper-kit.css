@@ -6654,7 +6654,7 @@ License - nucleoapp.com/license/
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
-  max-height: 100vh;
+  max-height: 100vm;
   overflow: hidden;
   position: relative;
   width: 100%;
