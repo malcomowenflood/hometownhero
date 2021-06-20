@@ -3541,6 +3541,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
   width: 100%;
   height: 100%;
   z-index: -1;
+  overflow: hidden;
 }
 
 .offline-doc .page-header .container {
@@ -3557,6 +3558,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
   top: 0;
   width: 100%;
   z-index: 2;
+  overflow: hidden  ;
 }
 
 .main .section:first-of-type {
@@ -6653,7 +6655,7 @@ License - nucleoapp.com/license/
   background-size: cover;
   min-height: 100vh;
   max-height: 999px;
-  overflow: auto;
+  overflow: hidden;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -6672,6 +6674,7 @@ License - nucleoapp.com/license/
   position: absolute;
   width: 100%;
   z-index: 1;
+  overflow: hidden;
 }
 
 .page-header.page-header-small {
